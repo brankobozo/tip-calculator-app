@@ -14,8 +14,8 @@ This small app is perfect for anyone starting to get to grips with JavaScript. T
 
 ## Links
 
-- [Code](https://github.com/brankobozo/interactive-rating-component)
-- [live](https://brankobozo.github.io/interactive-rating-component/)
+- [Code](https://github.com/brankobozo/tip-calculator-app)
+- [live](https://brankobozo.github.io/tip-calculator-app/)
 
 ## Tools
 
