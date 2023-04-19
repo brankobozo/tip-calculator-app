@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1>
+      Spli
+      <br />
+      tter
+    </h1>
+    <main class="app">
+      <section class="calculator">
+        <div class="calculator__group">
+          <p class="calculator__subtitle">Bill</p>
+          <div class="calculator__inputwrapper">
+            <img
+              src="images/icon-dollar.svg"
+              alt="holly dollar"
+              class="calculator__icon"
+            />
+            <input
+              type="number"
+              min="0"
+              id="bill"
+              name="bill"
+              placeholder="0"
+              class="calculator__input b-radius fs-2"
+            />
+          </div>
+        </div>
+
+        <div class="calculator__group">
+          <p class="calculator__subtitle">Select Tip %</p>
+          <div class="calculator__container">
+            <div>
+              <input
+                type="radio"
+                id="5"
+                name="tip"
+                value="5"
+                class="calculator__radio"
+              />
+              <label for="5" class="b-radius fs-2">5%</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="10"
+                name="tip"
+                value="10"
+                class="calculator__radio"
+              />
+              <label for="10" class="b-radius fs-2">10%</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="15"
+                name="tip"
+                value="15"
+                class="calculator__radio"
+              />
+              <label for="15" class="b-radius fs-2">15%</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="25"
+                name="tip"
+                value="25"
+                class="calculator__radio"
+              />
+              <label for="25" class="b-radius fs-2">25%</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="50"
+                name="tip"
+                value="50"
+                class="calculator__radio"
+              />
+              <label for="50" class="b-radius fs-2">50%</label>
+            </div>
+            <div>
+              <input
+                type="number"
+                min="0"
+                id="custom"
+                placeholder="Custom"
+                class="calculator__input b-radius fs-2"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="calculator__group">
+          <p class="calculator__subtitle">
+            Number of People
+            <span class="error d-none"> Can't be zero or less</span>
+          </p>
+
+          <div class="calculator__inputwrapper">
+            <img
+              src="images/icon-person.svg"
+              alt="Person icon for styling"
+              class="calculator__icon"
+            />
+            <input
+              type="text"
+              id="people"
+              name="people"
+              placeholder="1"
+              value="1"
+              class="calculator__input b-radius fs-2"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="display">
+        <div class="display__section">
+          <p>
+            Tip Amount
+            <br />
+            <span>/ person</span>
+          </p>
+
+          <div class="display__result">
+            <p class="display__tip">$0.00</p>
+          </div>
+        </div>
+
+        <div class="display__section">
+          <p>
+            Total
+            <br />
+            <span>/ person</span>
+          </p>
+
+          <div class="display__result">
+            <p class="display__total">$0.00</p>
+          </div>
+        </div>
+        <button class="btn b-radius fs-2">Reset</button>
+      </section>
+    </main>
+
+    <!-- attribution to frontendmentor -->
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/brankobozo">branko boz</a>.
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
